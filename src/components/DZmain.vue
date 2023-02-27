@@ -170,6 +170,11 @@ export default {
       .sum {
         align-self: center;
       }
+
+      .wrap__main {
+        margin: 10px;
+        padding: 10px;
+      }
     }
 
 </style>

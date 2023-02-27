@@ -141,4 +141,10 @@ export default {
     .fade-leave-to {
       opacity: 0;
     }
+
+    @media screen and (max-width: 760px) {
+      .header {
+        margin: 10px;
+      }
+    }
 </style>

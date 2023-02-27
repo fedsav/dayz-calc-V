@@ -76,9 +76,8 @@ export default {
 
       .card {
         height: 150px;
-        width: 160px;
-        padding: 6px;
-        gap: 10px;
+        width: 140px;
+        padding: 4px;
         margin: 10px;
       }
 
