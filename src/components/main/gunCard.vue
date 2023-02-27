@@ -19,9 +19,15 @@ export default {
 
   computed: {
         picUrl () {
-          return `url(/src/assets/pictures/${this.gun.name}.png)`
+          return `url(${this.getUrl()})`
         },
     },
+
+    methods: {
+        getUrl () {
+            return new URL(`/src/assets/images/${this.gun.name}.png`, import.meta.url).href
+        },
+    }
 }
 
 </script>
