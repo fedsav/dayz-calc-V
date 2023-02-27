@@ -37,6 +37,7 @@ export default {
       height: 135px;
       width: 250px;
       padding: 15px;
+      margin: 25px;
       background-color: #282A3A;
       border: 2px solid black;
       border-radius: 15px;
@@ -75,9 +76,10 @@ export default {
 
       .card {
         height: 150px;
-        width: 100px;
+        width: 160px;
         padding: 6px;
-        gap: 10px
+        gap: 10px;
+        margin: 10px;
       }
 
       .card__name {

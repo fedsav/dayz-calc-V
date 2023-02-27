@@ -33,9 +33,14 @@ export default {
 
     .calc__cards {
       display: flex;
-      gap: 50px;
       justify-content: center;
       flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 760px) { 
+    .calc__cards {
+      display: block;
     }
   }
 

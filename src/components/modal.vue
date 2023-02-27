@@ -8,7 +8,7 @@
         </div>
         <div class="modal__qa">
             <p class="modal__q">But how do you know the exact damge of all the weapons?</p>
-            <p class="modal__a">All stats taken from <a href="https://wobo.tools/" class="modal__a" style="">wobo.tools</a>. You can find a lot off useful stuff there!</p>
+            <p class="modal__a">All stats taken from <a href="https://wobo.tools/" class="modal__a" style="text-decoration: underline solid whitesmoke 1px">wobo.tools</a> You can find a lot off useful stuff there!</p>
         </div>
         <div class="modal__qa">
             <p class="modal__q">Why some weapons located in one section?</p>
@@ -59,8 +59,8 @@ export default {
             border: 6px solid black;
             height: 500px;
             width: 500px;
-            margin-top: 10%;
-            padding: 40px 20px;
+            margin-top: 15%;
+            padding: 50px 20px;
             border-radius: 20px;
         }
 
@@ -98,7 +98,7 @@ export default {
 
     @media screen and (max-width: 760px) {
         .modal__a, .modal__q {
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
 
         .modal__close {
