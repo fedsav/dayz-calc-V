@@ -25,7 +25,7 @@ export default {
 
     methods: {
         getUrl () {
-            return new URL(`/src/assets/images/${this.gun.name}.png`, import.meta.url).href
+            return new URL(`/src/assets/pictures/${this.gun.name}.png`, import.meta.url).href
         },
     }
 }
