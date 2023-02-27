@@ -1,0 +1,70 @@
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000000;
+  margin: 0;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "HaasBold";
+  src: url("./assets/fonts/NeueHaasDisplay-Black.ttf");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "HaasRoman";
+  src: url("./assets/fonts/NeueHaasDisplay-Roman.ttf");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 6px #58697c;
+  font-family: HaasBold;
+}
+
+input {
+  font-family: HaasBold;
+  text-align: center;
+}
+
+.calc__stepone, .multi__steptwo, .summary__stepthree {
+  font-family: 'HaasBold';
+  font-size: 36px;
+  color: whitesmoke;
+  padding-bottom: 8px;
+}
+
+.calc__steponeTxt, .multi__steptwoTxt, .summary__stepthreeTxt {
+  font-family: 'HaasRoman';
+  font-size: 24px;
+  padding: 8px 0px 16px 0px;
+}
